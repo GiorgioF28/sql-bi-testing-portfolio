@@ -27,8 +27,18 @@ SQL · Python (pandas + sqlite3) · Excel · Git
 Perfetto per ruoli QA Analyst / BI Testing.
 
 ## Key Findings (eseguiti il 04/03/2026)
-- Revenue mismatch critico (4640.49 vs 7791.98) → defect principale documentato
-- 4 clienti orfani rilevati
-- 0 duplicati in staging
-- 5 ordini High Value, tutti corretti
-- 0 anomalie revenue categoria <100
+
+- Revenue source (SAP): 4640.49  
+  Revenue staging: 7791.98  
+  → **MISMATCH** di 3151.49 (defect critico documentato)
+
+- Clienti orfani rilevati: 4 (Marco Blu, Sara Rosa, Antonio Verde, Laura Arancione)
+
+- Duplicati in source: 0
+
+- Ordini High Value (>300): 5, tutti categorizzati correttamente
+
+- Anomalie revenue categoria <100: 0 (PASS)
+
+Tutti i test documentati in docs/test_cases.md e defects_log.md.  
+Notebook completo con output: notebooks/end_to_end_validation.ipynb
