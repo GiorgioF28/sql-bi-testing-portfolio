@@ -1,0 +1,13 @@
+campaign_id,customer_email,clicks,conversions
+CAMP001,mario.rossi@email.com,45,5
+CAMP002,anna.bianchi@email.com,120,12
+CAMP003,luca.verdi@email.com,30,3
+CAMP004,giulia.neri@email.com,80,8
+CAMP005,paola.gialli@email.com,200,0     -- tanti click 0 conversioni (sospetto)
+CAMP006,francesco.nero@email.com,5,1
+CAMP007,sara.rosa@email.com,150,15
+CAMP008,antonio.verde@email.com,0,0       -- inattivo
+CAMP009,laura.arancione@email.com,300,30
+CAMP010,mario.rossi@email.com,45,5        -- duplicato campagna per stesso cliente
+CAMP011,unknown@email.com,100,10          -- email inesistente
+CAMP012,anna.bianchi@email.com,120,12     -- duplicato
