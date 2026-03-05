@@ -38,6 +38,9 @@ Perfetto per ruoli QA Analyst / BI Testing.
 
 - Ordini High Value (>300): 5, tutti categorizzati correttamente
 
+## Tecnologie e strumenti
+Python · Pandas · SQLite · Jupyter Notebook · ETL multi-source (CRM + SAP + Marketo)
+
 - Anomalie revenue categoria <100: 0 (PASS)
 
 Tutti i test documentati in docs/test_cases.md e defects_log.md.  
